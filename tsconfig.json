@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "es6",
+        "target": "es5",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "jsx": "react",
+        "lib": [
+            "dom",
+            "es5",
+            "es2015.promise"
+        ],
+        "allowSyntheticDefaultImports": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}

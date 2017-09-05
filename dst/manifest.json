@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Wikipedia OpenSearch",
+    "version": "0.0.1",
+    "description": "Wikipedia Keyword Search with MediaWiki Api.",
+    "browser_action": {
+        "default_title": "Wikipedia OpenSearch",
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "*://ja.wikipedia.org/*",
+        "tabs"
+    ]
+}

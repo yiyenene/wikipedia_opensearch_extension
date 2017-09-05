@@ -1,0 +1,40 @@
+
+.findbox {
+    display: flex;
+}
+
+.findbox-text {
+    min-width: 16em;
+    margin: .5em;
+}
+
+.findbox-button {
+    margin: .5em .5em .5em 0;
+}
+
+.findresult {
+    margin-bottom: .5em;
+}
+
+.findresult-link {
+    padding: .5em;
+}
+
+.findresult-desc {
+    padding: .5em;
+    font-weight: bold;
+}
+
+.findresult-footer {
+    padding: 0;
+}
+
+.findresult-button {
+    width: 100%;
+    border-radius: 0 0 4px 4px;
+    margin: 0 -1px;
+}
+
+.findresult-button-text {
+    margin-left: .5em;
+}
