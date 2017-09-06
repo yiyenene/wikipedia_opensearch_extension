@@ -3,9 +3,15 @@
     "name": "Wikipedia OpenSearch",
     "version": "0.0.1",
     "description": "Wikipedia Keyword Search with MediaWiki Api.",
+    "icons": {
+        "128": "icon128.png",
+        "48": "icon48.png",
+        "32": "icon32.png"
+    },
     "browser_action": {
         "default_title": "Wikipedia OpenSearch",
-        "default_popup": "index.html"
+        "default_popup": "index.html",
+        "default_icon": "icon38.png"
     },
     "permissions": [
         "*://ja.wikipedia.org/*",
